@@ -2,4 +2,4 @@
 
 ## Curso de Sistemas para Internet/IFPB - Turma 2025.2
 
-As notas de aula estão disponíveis no link abaixo.
+[Clique aqui para acessar as notas de aula](./classes/README.md).
