@@ -239,7 +239,7 @@ const usuario: Readonly<Usuario> = {
 };
 
 // usuario.id = 2;  // Erro! Não pode modificar
-usuario.nome = "Alicia";  // OK
+usuario.nome = "Alicia";  // Erro!
 ```
 - **Partial**: Torna todas as propriedades opcionais
 ```typescript
