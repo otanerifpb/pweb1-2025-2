@@ -82,6 +82,25 @@ function loopInfinito(): never {
     // código que nunca termina
   }
 }
+
+// Erro se entrar no default.
+// -> Representa que um tipo não contemplado foi informado à função geetArea(...)
+type Shape = 'circle' | 'square' | 'triangle';
+
+function getArea(shape: Shape): number {
+  switch (shape) {
+    case 'circle':
+      return Math.PI * 2;
+    case 'square':
+      return 10 * 2;
+    case 'triangle':
+      return 10 * 5;
+    default:
+      // TypeScript knows this should never happen
+      const _exhaustiveCheck: never = shape;
+      return _exhaustiveCheck;
+  }
+}
 ```
 
 ## Tipos de Objeto
