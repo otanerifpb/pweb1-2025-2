@@ -75,4 +75,27 @@ let funcionario = {
     qtdDisciplinas: 3
 };
 console.log(funcionario.nome);
+class Aluno {
+    constructor(nome, idade) {
+        this.nome = nome;
+        this.idade = idade;
+    }
+    saudacao() {
+        return 'Saudação';
+    }
+}
+const user = {
+    id: 1,
+    nome: "Maria"
+};
+;
+let produto = {
+    id: 1,
+    nome: "cafeteira",
+    marca: "Bialetti"
+};
+function calculadora(operando, ...valores) {
+}
+calculadora('+', 1, 2);
+calculadora('+', 1, 2, 5, 10, 30);
 //# sourceMappingURL=01-intro.js.map

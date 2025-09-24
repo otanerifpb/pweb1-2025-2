@@ -42,6 +42,6 @@
     "skipLibCheck": true,
   },
 
-  "include": ["./src/01-intro.ts"], // ["./src/**/*"]  
+  "include": ["./src/*.ts"], // ["./src/**/*"]  
   "exclude": []
 }
