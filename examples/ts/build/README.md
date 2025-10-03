@@ -1,0 +1,1 @@
+### Arquivos gerados em JavaScript, como resultado da compilação dos arquivos TypeScript.
